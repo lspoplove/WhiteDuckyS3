@@ -82,13 +82,13 @@ DSTIKE-DUCKY-XXXXXX
 Default password:
 
 ```text
-ChangeMe123!
+dstike123
 ```
 
 Change the password near the top of the sketch before shipping or regular use:
 
 ```cpp
-static const char *AP_PASSWORD = "ChangeMe123!";
+static const char *AP_PASSWORD = "dstike123";
 ```
 
 The password must contain at least eight characters.
