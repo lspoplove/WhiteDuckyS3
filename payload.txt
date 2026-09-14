@@ -1,0 +1,18 @@
+REM DSTIKE demo: type a greeting in Notepad, then open the website.
+REM Unlock Windows and select an English US keyboard/input mode.
+REM Keep the PC online. Use a phone to trigger Run Manually.
+REM Increase the 2500 ms delay if Notepad opens slowly.
+DELAY 1000
+GUI r
+DELAY 800
+STRING notepad.exe
+ENTER
+DELAY 2500
+CTRL n
+DELAY 800
+STRING Hello from DSTIKE!
+DELAY 2000
+GUI r
+DELAY 800
+STRING https://www.dstike.com
+ENTER
